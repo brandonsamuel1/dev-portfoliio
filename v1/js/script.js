@@ -1,3 +1,12 @@
+var typed = new Typed(".typing", {
+    strings: ["", "Hey, ", "Bonjour, ", "Hola, ", "Ciao, ", "你好", "こんにちは", "안녕하세요"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    cursorChar: '_',
+    backDelay: 500,
+    loop: true
+})
+
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
     totalNavList = navList.length,
