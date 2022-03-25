@@ -342,8 +342,14 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
-h3.my-profession.fa-brands {
-    background-color: var(--skin-color);
+h3.my-profession span {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+h3.my-profession .fa-brands {
+    color: var(--skin-color);
 }
 
 .typing {
