@@ -326,6 +326,7 @@ h3.hello {
 h3.greeting {
     font-size: 30px;
     margin: 15px 0;
+    color: var(--text-black-700);
 }
 
 h3.greeting span {
@@ -338,6 +339,7 @@ h3.greeting span {
 h3.my-profession {
     font-size: 30px;
     margin: 15px 0;
+    color: var(--text-black-700);
 }
 
 h3.my-profession.fa-brands {
@@ -345,7 +347,7 @@ h3.my-profession.fa-brands {
 }
 
 .typing {
-    color: var(--skin-color);
+    color: var(--text-black-700);
 }
 
 .home-info p {
